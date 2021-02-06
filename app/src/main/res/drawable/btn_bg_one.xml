@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--&lt;!&ndash; android:shape指定形状类型，默认为rectangle &ndash;&gt;-->
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:shape="rectangle">-->
+<!--    &lt;!&ndash; solid指定形状的填充色，只有android:color一个属性 &ndash;&gt;-->
+<!--    <solid android:color="#3c464c" />-->
+<!--    &lt;!&ndash; padding设置内容区域离边界的间距 &ndash;&gt;-->
+<!--    <padding-->
+<!--        android:bottom="6dp"-->
+<!--        android:left="20dp"-->
+<!--        android:right="20dp"-->
+<!--        android:top="5dp" />-->
+<!--    &lt;!&ndash; corners设置圆角，只适用于rectangle &ndash;&gt;-->
+<!--    <corners-->
+<!--        android:radius="2dp" />-->
+<!--    &lt;!&ndash; stroke设置描边 &ndash;&gt;-->
+<!--    <stroke-->
+<!--        android:width="2dp"-->
+<!--        android:color="#ff9933" />-->
+<!--</shape>-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape = "rectangle"
+    >
+<solid android:color="@android:color/white"/>
+
+<padding
+    android:top="6dp"
+    android:bottom="6dp"
+    android:left ="6dp"
+    android:right ="6dp"
+    />
+
+ <corners
+     android:radius="10dp"
+     />
+<stroke
+    android:width="2dp"
+    android:color="@android:color/black"
+    />
+</shape>
